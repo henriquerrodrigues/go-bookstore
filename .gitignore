@@ -1,10 +1,5 @@
-# Ignorar executáveis (o cmd.exe da pasta cmd e outros)
 *.exe
 cmd/cmd.exe
 
-# Ignorar arquivos de gerenciamento de módulos (Solicitado por você)
 go.mod
 go.sum
-
-# Ignorar arquivo específico com dados sensíveis (Solicitado por você)
-pkg/models/book.go
